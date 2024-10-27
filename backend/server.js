@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://splendid-banoffee-065070.netlify.app/",
+    origin: "https://splendid-banoffee-065070.netlify.app",
     methods: ["GET", "POST", "PUT"]
   }
 });
