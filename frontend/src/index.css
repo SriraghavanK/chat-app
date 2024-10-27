@@ -1,0 +1,29 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: #0084ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
